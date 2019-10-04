@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+
+int main()
+{
+    char man;
+    scanf("%c",&man);
+    switch(man)
+    {
+        case 'a':
+        printf("hello\n");
+        break;
+        case 'b':
+        printf("good morning\n");
+        break;
+        case 'c':
+        printf("java programer\n");
+        break;
+        default:
+        printf("that doesn't even make any sense\n");
+    }
+
+    return 0;
+}
